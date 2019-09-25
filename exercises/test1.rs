@@ -9,7 +9,13 @@
 
 // Put your function here!
 // fn ..... {
-
+fn calculate_price(price: i32) -> i32 {
+    if (price > 40) {
+        return price;
+    } else {
+        return price * 2;
+    }
+}
 // Don't modify this function!
 #[test]
 fn verify_test() {
